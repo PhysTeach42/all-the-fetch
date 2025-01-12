@@ -24,7 +24,8 @@ export function getData() {
   // let response = fetch(url);
   // let dataobj = response.json();
   // console.log(dataobj);
+*/
 }
 
-function fred(resp) {}
-*/
+// function fred(resp) {}
+
