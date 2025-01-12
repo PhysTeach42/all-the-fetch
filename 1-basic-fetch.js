@@ -4,14 +4,6 @@ const url = 'https://jsonplaceholder.typicode.com/users';
 export function getData() {
   //
   fetch(url)
-  .then(function(resp) {
-    // empty parentheses is anonymous (unnamed) function
-    // arrow precludes the word 'function' in front of parentheses
-    console.log(resp);
-  })
-  .then()
-  .catch();
-    /*
     .then((resp) => {
       // console.log(resp);
       //error checking
@@ -31,7 +23,7 @@ export function getData() {
   // let response = fetch(url);
   // let dataobj = response.json();
   // console.log(dataobj);
-*/
+
 }
 
 function fred(resp) { }//this function is empty so does nothing and does not cause an error
