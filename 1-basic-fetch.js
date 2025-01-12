@@ -7,7 +7,7 @@ export function getData() {
   .then(function(resp) {
     // empty parentheses is anonymous (unnamed) function
     // arrow precludes the word 'function' in front of parentheses
-    console.log(resp)
+    console.log(resp);
   })
   .then()
   .catch();
