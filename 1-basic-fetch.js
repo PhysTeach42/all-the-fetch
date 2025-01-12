@@ -4,6 +4,7 @@ const url = 'https://jsonplaceholder.typicode.com/users';
 export function getData() {
   //
   fetch(url)
+    /*
     .then((resp) => {
       // console.log(resp);
       //error checking
@@ -17,6 +18,7 @@ export function getData() {
     .catch((err) => {
       console.warn(err.message);
     });
+    
 
   //The code below will always fail.
   // let response = fetch(url);
@@ -25,3 +27,4 @@ export function getData() {
 }
 
 function fred(resp) {}
+*/
