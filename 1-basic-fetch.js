@@ -3,7 +3,7 @@ const url = 'https://jsonplaceholder.typicode.com/users';
 
 export function getData() {
   //
-  fetch(url)
+  fetch(url);
     /*
     .then((resp) => {
       // console.log(resp);
