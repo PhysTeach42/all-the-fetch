@@ -13,7 +13,7 @@ Headers
 - string | object literal | new Headers()
 */
 
-const str = 'http://127.0.0.1:5500/local-sample.json?attempt=123&other=hello';
+const str = 'https://github.com/PhysTeach42/all-the-fetch/edit/main/local-sample.json?attempt=123&other=hello';
 
 export function getData() {
   //
