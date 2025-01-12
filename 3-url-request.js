@@ -18,7 +18,7 @@ const str = 'https://github.com/PhysTeach42/all-the-fetch/edit/main/local-sample
 export function getData() {
   //
   const url = new URL(str);
-  // console.log(url.host, url.origin, url.protocol, url.port, url.pathname);
+  console.log(url.host, url.origin, url.protocol, url.port, url.pathname);
  
   const request = new Request(url, {
     headers: { 'x-steve': 'hello' },
