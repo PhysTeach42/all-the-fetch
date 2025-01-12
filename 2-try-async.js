@@ -1,6 +1,6 @@
 // using async and await instead of chaining then()
 // still needs error handling with try..catch
-const url = 'https://jsonplaceholder.typicode.com/users';
+const url = 'https://jsonplaceholder.typicode.com/users000';
 
 export async function getData() {
   //
