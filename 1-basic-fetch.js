@@ -3,7 +3,7 @@ const url = 'https://jsonplaceholder.typicode.com/users';
 
 export function getData() {
   //
-  fetch(url);
+  fetch(url)
   .then(function(resp) {
     // empty parentheses is anonymous (unnamed) function
     // arrow precludes the word 'function' in front of parentheses
